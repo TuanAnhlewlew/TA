@@ -944,22 +944,30 @@ def main():
     else:
         print('Unsolve Rubik!\n')
         print(cube)
-        print('\nPROCESS : WHITE UP')
+        print('PROCESS : WHITE UP')
         whiteUp()
+        print(cube)
         print('PROCESS : CROSS')
         cross()
+        print(cube)
         print('PROCESS : UP-SIDE-DOWN')
         formula('Y Y')#up-side-down
+        print(cube)
         print('PROCESS : F2L')
         f2l()
+        print(cube)
         print('PROCESS : YELLOW CROSS')
         UpCross()
+        print(cube)
         print('PROCESS : OLL')
         oll()
+        print(cube)
         print('PROCESS : PLL')
         pll()
-        print(check()+'!\n')
         print(cube)
+        print(check()+'!\n')
+
+
 
 main()
 
